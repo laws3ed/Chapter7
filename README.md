@@ -1,1 +1,1 @@
-Steps in tnis exercise include:
+Steps in this exercise include:
