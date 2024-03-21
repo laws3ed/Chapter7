@@ -4,6 +4,7 @@ install:
 		pip install -r requirements.txt
 format:
 	# format code
+	black *.py chapter7/*.py
 lint:
 	# run lint
 test:
