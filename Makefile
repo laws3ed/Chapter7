@@ -7,6 +7,7 @@ format:
 	black *.py chapter7/*.py
 lint:
 	# run lint
+	pylint --disable=R,C *.py chapter7/*.py
 test:
 	# test code
 deploy:
