@@ -10,7 +10,7 @@ lint:
 	pylint --disable=R,C *.py chapter7/*.py
 test:
 	# test code
-	python -m pytest -vv --cov=chapter7 test_cases.py
+	python -m pytest -vv --cov=chapter7 test_*.py
 build:
 	# build containers
 deploy:
