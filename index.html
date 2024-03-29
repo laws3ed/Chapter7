@@ -74,7 +74,7 @@
                 redirect: 'follow'
             };
             // make API call with parameters and use promises to get response
-            fetch("https://teg4kf5xp4.execute-api.us-east-2.amazonaws.com/dev", requestOptions)
+            fetch("https://teg4kf5xp4.execute-api.us-east-2.amazonaws.com", requestOptions)
             .then(response => response.text())
             .then(data => {
                 render(data);
